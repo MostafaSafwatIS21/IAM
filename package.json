@@ -1,0 +1,27 @@
+{
+  "name": "iam",
+  "version": "1.0.0",
+  "description": "User Role Management ",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "author": "Mostafa Safwat",
+  "license": "ISC",
+  "dependencies": {
+    "@webdatarocks/webdatarocks": "^1.4.19",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "fast-csv": "^5.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
